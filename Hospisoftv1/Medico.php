@@ -11,7 +11,7 @@ require_once 'plantilla/cabecera.php';
               <div class="row">
             <div class="col-md-6">
                 <div class="card">
-                    
+                    sdsd
                     <div class="card-body">
                         <form action="app/insertarMedicos.php" method="POST">
                             <div class="mb-3">
