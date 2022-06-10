@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+    Options -Multiviews
+    RewriteEngine on
+    #TENER EN CUENTA LA RUTA FULL PARA EL CORE
+    RewriteCound %{REQUEST_FILENAME} !-d
+    RewriteCound %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+</IfModule>
